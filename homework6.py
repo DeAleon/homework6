@@ -4,8 +4,8 @@ print(my_dict.get('Anton'))
 print(my_dict.get('Kolya'))
 my_dict.update({'Misha': 2000,
                 'Kostya': 1987})
-print(my_dict.get('Pascha'))
-del my_dict['Pascha']
+a = my_dict.pop('Pascha')
+print(a)
 print(my_dict)
 
 my_set = {1, 2, "Hello", 3.14, 1, 2}
